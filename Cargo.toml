@@ -2,6 +2,13 @@
 name = "anproto"
 version = "0.1.0"
 edition = "2021"
+description = "Rust implementation of ANProto: the Authenticated and Non-networked protocol"
+license = "Apache-2.0"
+keywords = ["crypto", "signature", "ed25519", "protocol", "authentication"]
+categories = ["cryptography", "authentication"]
+repository = "https://github.com/vic/anproto-rs"
+homepage = "https://github.com/vic/anproto-rs"
+documentation = "https://docs.rs/anproto"
 
 [dependencies]
 ed25519-dalek = "2.0"
