@@ -1,0 +1,10 @@
+[package]
+name = "anproto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ed25519-dalek = "2.0"
+sha2 = "0.10"
+base64 = "0.21"
+rand = "0.8"
